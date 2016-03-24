@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>deveeldb.linq</RootNamespace>
     <AssemblyName>deveeldb.linq</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,11 +35,13 @@
       <HintPath>..\packages\deveeldb-anycpu.2.0.7.304\lib\net35\deveeldb.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="IQToolkit">
-      <HintPath>..\..\lib\iqtoolkit-1.0.0.0\anycpu\IQToolkit.dll</HintPath>
+    <Reference Include="IQToolkit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IQToolkit.1.0.0.0\lib\net40\IQToolkit.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="IQToolkit.Data">
-      <HintPath>..\..\lib\iqtoolkit-1.0.0.0\anycpu\IQToolkit.Data.dll</HintPath>
+    <Reference Include="IQToolkit.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IQToolkit.Data.1.0.0.0\lib\net40\IQToolkit.Data.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
