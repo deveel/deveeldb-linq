@@ -68,8 +68,8 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="deveeldb, Version=2.0.7.304, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\deveeldb-anycpu.2.0.7.304\lib\net35\deveeldb.dll</HintPath>
+    <Reference Include="deveeldb, Version=2.0.7.357, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\deveeldb.2.0.7.357\lib\net35\deveeldb.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="IQToolkit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
