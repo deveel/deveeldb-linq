@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>deveeldb.linq</id>
+        <version>$version$</version>
+        <title>DeveelDB LINQ Provider</title>
+        <authors>Antonello Provenzano</authors>
+        <owners>antonello</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+        <projectUrl>http://github.com/deveel/deveeldb-linq</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is the LINQ provider for the DeveelDB SQL System<releaseNotes></releaseNotes>
+        <copyright>(c) 2010-2016 Deveel</copyright>
+        <tags>sql db database data linq embedded deveel sql-92 sql-99 select query mono</tags>
+    </metadata>
+    <files>
+        <file src="..\dist\$platform$\deveeldb.linq.dll" target="lib\net35\deveeldb.linq.dll" />
+        <file src="..\dist\$platform$\deveeldb.linq.pdb" target="lib\net35\deveeldb.linq.pdb" />
+    </files>
+</package>
