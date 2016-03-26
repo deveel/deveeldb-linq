@@ -9,7 +9,8 @@
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
         <projectUrl>http://github.com/deveel/deveeldb-linq</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>This is the LINQ provider for the DeveelDB SQL System, specific for $platform$ Architecture.<releaseNotes></releaseNotes>
+        <description>This is the LINQ provider for the DeveelDB SQL System, specific for $platform$ Architecture.</description>
+		<releaseNotes></releaseNotes>
         <copyright>(c) 2010-2016 Deveel</copyright>
         <tags>sql db database linq data embedded deveel sql-92 sql-99 select query mono $platform$</tags>
     </metadata>
